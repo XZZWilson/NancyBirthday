@@ -10,10 +10,26 @@ h2 {
   font-style: normal;
 }
 
+.years{
+  text-align: center;
+}
+
+.clear{
+  text-decoration: none;
+  color: inherit;
+}
+
 .pink_shirt {
   max-width: 100%;
-  height: auto;
-  display: block;
+  height: 500px;
+  
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 350px;      /* adjust as needed */
+    object-fit: contain;
+    background-color: black; /* optional */
 }
 
 @media (min-width: 319px) and (max-width: 480px) {
