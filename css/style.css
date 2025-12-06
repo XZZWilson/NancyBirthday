@@ -25,6 +25,18 @@ h2 {
   
 }
 
+.side-by-side {
+  display: flex;
+  gap: 10px;          /* space between images */
+  justify-content: center;
+}
+
+.side-by-side img {
+  width: 50%;         /* each takes half */
+  height: auto;
+  object-fit: cover;  /* optional: fill nicely */
+}
+
 .carousel-item img {
     width: 100%;
     height: 350px;      /* adjust as needed */
